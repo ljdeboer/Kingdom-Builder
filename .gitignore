@@ -22,6 +22,10 @@
 # Visual Studio cache directory
 .vs/
 
+#Ignore Large Files
+*.nc
+*.DS_store
+
 # Gradle cache directory
 .gradle/
 
