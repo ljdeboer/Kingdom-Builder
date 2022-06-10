@@ -1,0 +1,8 @@
+<linker>
+	<assembly fullname="Unity.AdaptivePerformance">
+		<type fullname="UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerProfile" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerSettingsBase" preserve="nothing" serialized="true"/>
+	</assembly>
+</linker>
