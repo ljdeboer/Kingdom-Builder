@@ -3,7 +3,9 @@ guid: b62bae665e5cb8c49b7264884b55c273
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - BarracksCanvas: {fileID: 7852805139023468809, guid: 7673edadb3556f34fb2e48297ad06211,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

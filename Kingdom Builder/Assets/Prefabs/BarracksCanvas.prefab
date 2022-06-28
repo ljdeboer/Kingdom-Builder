@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 3566803522154315682}
   - component: {fileID: 3566803522154315709}
   m_Layer: 5
-  m_Name: Build House
+  m_Name: Militia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -173,8 +173,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190.63, y: -87.481}
-  m_SizeDelta: {x: 381.9491, y: 174.962}
+  m_AnchoredPosition: {x: -565.0342, y: 175.6233}
+  m_SizeDelta: {x: 380.0807, y: 172.9354}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3566803522154315683
 CanvasRenderer:
@@ -303,10 +303,10 @@ RectTransform:
   m_Father: {fileID: 3566803522154315708}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.17456, y: -0.00000453}
-  m_SizeDelta: {x: 381.6, y: 173.94}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 95.675, y: -43.47}
+  m_SizeDelta: {x: 190.6, y: 86.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3566803522394590793
 CanvasRenderer:
@@ -329,14 +329,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8207547, g: 0.8192205, b: 0.615566, a: 1}
+  m_Color: {r: 1, g: 0.9669811, b: 0.9669811, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7dbc80854f5da154997740a688c43d1c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1640717140269b44ead9f853cc70950f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 3566803522395863749}
   - component: {fileID: 3566803522395863748}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: BarracksCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -383,8 +383,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -40, y: 0}
+  m_SizeDelta: {x: -1267.8425, y: -759.8135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &3566803522395863754
 Canvas:
@@ -429,7 +429,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &3566803522395863748
 MonoBehaviour:
   m_ObjectHideFlags: 0
